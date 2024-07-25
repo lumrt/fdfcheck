@@ -70,6 +70,7 @@ void	brasenham(t_point dot1, t_point dot2, t_fdf *data)
 		Xincr = -1;
 	if (dot1.y > dot2.y)
 		Yincr = -1;
+	
 	if (dx > dy)
 	{
 		while (i <= dx)
